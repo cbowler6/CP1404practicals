@@ -2,10 +2,10 @@ BoxLayout:
     orientation: 'vertical'
     BoxLayout:
         orientation: "horizontal"
-#    orientation: 'horizontal'
         Button:
             text: 'Clear'
             size_hint_x: 0.3
+            on_release: app.clear()
         TextInput:
             id: input_name
             text: ''
